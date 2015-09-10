@@ -5,11 +5,12 @@ layout: base
 <div class="container">
 <div class="row">
   <div class="sidebar col-lg-4">
-    <img src="{{site.baseurl}}{{site.data.course.image}}">
+    <img src="{{site.baseurl}}{{site.data.course.image}}" class="img-responsive img-circle">
     <ul class="nav nav-list">
     {% for subpage in site.categories.content reversed %}
       <li class="{% if subpage.title == page.title %}active{% endif %}" > <a href="{{site.baseurl}}{{ subpage.url }}">{{subpage.title}}</a></li>
     {% endfor %}
+
     </ul>
   </div>
 
