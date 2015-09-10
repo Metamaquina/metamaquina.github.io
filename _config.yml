@@ -1,7 +1,7 @@
 encoding: utf-8
 markdown: redcarpet
 baseurl: /3d
-url: metamaquina.github.io/
+url: metamaquina.github.io/3d/
 permalink: /:title/
 ga_tracking_code: 
 disqus_shortname: metamaquina
