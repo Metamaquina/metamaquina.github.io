@@ -3,7 +3,8 @@ title: About
 layout: course_about
 ---
 
-A 3ª Revolução Industrial começou! Bem Vindo à era *maker*!
+<img src="{{site.baseurl}}{{site.data.course.image}}" class="img-responsive img-rounded span4 block-center">
+##### A 3ª Revolução Industrial começou! Bem Vindo à era *maker*!
 
 As impressoras 3D permitem aprodução de objetos que vão de vestidos a tecidos biológicos, de peças de espaçonaves a objetos educativos, revolucionando a maneira como nos relacionamos com os produtos. Entenda como essa inovação disruptiva está mudando o mundo dos negócios a partir da colaboração em rede!
 
