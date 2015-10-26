@@ -6,36 +6,36 @@
 			<a href="{{ site.baseurl }}/" class="navbar-brand">
 				<img src="{{ site.baseurl }}/img/logo.png" class="img-responsive" alt="Logo Metamáquina" />
 			</a>
-			<a class="navbar-toggle" data-toggle="collapse" data-target="#p2pu-menu">
-				<span class="sr-only">Toggle navigation</span>
-				<i class="fa fa-bars"></i>
-			</a>
-			<a class="p2pu-tab" href="#">
-				<i class="fa fa-chevron-down p2pu-tab-icon"></i>
-			</a>
+			<!-- <a class="navbar-toggle" data-toggle="collapse" data-target="#p2pu-menu"> -->
+			<!-- 	<span class="sr-only">Toggle navigation</span> -->
+			<!-- 	<i class="fa fa-bars"></i> -->
+			<!-- </a> -->
+			<!-- <a class="p2pu-tab" href="#"> -->
+			<!-- 	<i class="fa fa-chevron-down p2pu-tab-icon"></i> -->
+			<!-- </a> -->
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="p2pu-menu">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="{{ site.baseurl }}/">Início </a></li>
-				<li class="dropdown active">
-          <a href="#" >Módulos </a>
-          <span class="fa fa-caret-down dropdown-toggle visible-xs-block visible-sm-block" data-toggle="dropdown"></span>
-					<ul class="dropdown-menu" role="menu">
-						{% for post in site.categories.content reversed %}
-							<li>
-								<a {% if post.url == page.url %}class="active"{% endif %}
-								   href="{{ site.baseurl }}{{ post.url }}">
-									{{ post.short_title }}
-								</a>
-							</li>
-						{% endfor %}
-					</ul>
-				</li>
-				<li>
-					<a href="#">Discussão</a>
-				</li>
+	  <!--       		<li class="dropdown active"> -->
+          <!-- <a href="#" >Módulos </a> -->
+          <!-- <span class="fa fa-caret-down dropdown-toggle visible-xs-block visible-sm-block" data-toggle="dropdown"></span> -->
+	  <!--       			<ul class="dropdown-menu" role="menu"> -->
+	  <!--       				{% for post in site.categories.content reversed %} -->
+	  <!--       					<li> -->
+	  <!--       						<a {% if post.url == page.url %}class="active"{% endif %} -->
+	  <!--       						   href="{{ site.baseurl }}{{ post.url }}"> -->
+	  <!--       							{{ post.short_title }} -->
+	  <!--       						</a> -->
+	  <!--       					</li> -->
+	  <!--       				{% endfor %} -->
+	  <!--       			</ul> -->
+	  <!--       		</li> -->
+	  <!--       		<li> -->
+	  <!--       			<a href="#">Discussão</a> -->
+	  <!--       		</li> -->
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->
